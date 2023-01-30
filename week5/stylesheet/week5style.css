@@ -11,6 +11,9 @@ font-weight: bold;
 border-color: red;
 font-weight: bold;
 }
+.danger{
+
+}
 p  
     {
         background-color :aquamarine;
@@ -18,5 +21,12 @@ p
 .headings
     {
         color: red;
-
+    }
+.heading2
+    {
+        background-color: greenyellow;
+    }
+#firsth2
+    {
+        background-color:pink;
     }
