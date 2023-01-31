@@ -14,10 +14,6 @@ font-weight: bold;
 .danger{
 
 }
-p  
-    {
-        background-color :aquamarine;
-    }   
 .headings
     {
         color: red;
@@ -30,3 +26,18 @@ p
     {
         background-color:pink;
     }
+html{
+    scroll-behavior: smooth;
+}
+.spanclass{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top:2px solid black;
+    border-bottom: 4px solid grey;
+}
+.new
+{   
+    border-style: none;
+    border:10px ridge lightgreen;
+    margin:5px;
+}
