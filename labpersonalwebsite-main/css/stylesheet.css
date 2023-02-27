@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+html 
+   {
+      background-color: bisque;
+   }
+.welcome
+   {
+        background-color: #B8B8B8;
+        color:#292929;
+        width: 100%;
+        font-family: 'Montserrat',sans-serif;
+   }
+nav   
+   {
+      background-color: aquamarine;
+      text-align: center;
+   }
+/* About me */
+.my-name{
+   display:grid;
+   grid-template-columns:6fr 1fr 1fr;
+   grid-auto-rows: 100px;
+   width: 100%;
+   height:220px;
+   
+}
+.my-intro{
+   width: 100%;
+   display: grid;
+   grid-template-columns:5fr 2fr;
+   grid-auto-rows: 100px;
+}
+.links{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+footer{
+
+        background-color: #B8B8B8;
+        color:#292929;
+        width: 100%;
+        font-family: 'Montserrat',sans-serif;
+}
+
+
+
