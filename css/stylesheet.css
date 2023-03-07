@@ -39,23 +39,17 @@ footer{
       font-family: 'Montserrat',sans-serif;
       text-align: center;
 }
-ul{
-   display:grid;
-   grid-template-columns: 1fr;
-   grid-template-rows:1fr;
-}
 li{
+   display:flex;
+   flex-direction: column;
    border-bottom: 2px green solid;
-   padding-top: 20px;
 } 
-@media screen and (min-width:600px)
-{
+@media screen and (max-width:600px){
    li{
-   border-bottom: 2px green solid;
-   padding-top: 20px;
-   display:grid;
-   grid-template-columns: 1fr 2fr;
-   } 
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+   }
 }
 
 
