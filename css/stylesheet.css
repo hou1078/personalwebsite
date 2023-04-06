@@ -16,7 +16,6 @@ header{
    display:grid;
    grid-template-columns:6fr 1fr 1fr;
    grid-auto-rows: 100px;
-   width: 100%;
    height:220px;
    
 }
@@ -38,17 +37,19 @@ footer{
       width: 100%;
       font-family: 'Montserrat',sans-serif;
       text-align: center;
+      width: 100%;
 }
 li{
    display:flex;
-   flex-direction: column;
+   flex-direction: column; 
+   flex-wrap: wrap;  
    border-bottom: 2px green solid;
 } 
 @media screen and (max-width:600px){
    li{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr;
    }
 }
 
